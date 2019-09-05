@@ -8,6 +8,7 @@
     参考：https://www.xttblog.com/?p=3097
     https://www.zhihu.com/question/33194730
     https://blog.csdn.net/SakuraInLuoJia/article/details/89502822
+
 （2）tomcat 对servlet有关，线程出现OOM时，出现问题的线程内存并没有得到有效回收。下次请求时，再次申请内存，最终导致程序内存一直增长，最终导致DoS。
 
 ## 启发
